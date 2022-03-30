@@ -12,7 +12,6 @@ const DoubleDate = (props) => {
     >
       <div>
         <DateInput
-          style={{ position: "absolute" }}
           value={props.date1Store.getState()}
           onChangeHandler={(data) => {
             props.date1Store.dispatch({ type: "update", payload: data });

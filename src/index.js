@@ -17,10 +17,9 @@ const rootEl = document.getElementById("root");
 
 const render = () => {
   ReactDOM.render(
-    <div>
+    <div style={{ display: "flex", alignItems: "center" }}>
       <DoubleDate date1Store={date1Store} date2Store={date2Store}></DoubleDate>
-
-      {/* <DoubleDate date1Store={date3Store} date2Store={date4Store}></DoubleDate> */}
+      <DoubleDate date1Store={date3Store} date2Store={date4Store}></DoubleDate>
     </div>,
     rootEl
   );
