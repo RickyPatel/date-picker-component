@@ -23,4 +23,6 @@ const dateReducer = (state = initialState, action) => {
 export default combineReducers({
   date1: namespaced("date1")(dateReducer),
   date2: namespaced("date2")(dateReducer),
+  date3: namespaced("date3")(dateReducer),
+  date4: namespaced("date4")(dateReducer),
 });
